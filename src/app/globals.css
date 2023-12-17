@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  cursor: url("https://img.icons8.com/color-glass/38/select-cursor--v2.png"),
+    default;
+  /* cursor: url("https://img.icons8.com/color-glass/38/select-cursor--v2.png"),
+    pointer; */
+}
+a,
+a:hover,
+button,
+.clickable,
+:link {
+  cursor: url("https://img.icons8.com/pulsar-color/38/hand-cursor.png"), default !important;
+}
+:active {
+  cursor: url("https://img.icons8.com/dusk/30/spinner-frame-2.png"), default !important;
+}
+input,
+input:focus {
+  cursor: url("https://img.icons8.com/ultraviolet/30/text-cursor.png"),  vertical-text !important;
+}
+/* input, */
+input:focus {
+  color: aqua;
+}
+
+.gradient {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0),
+    rgb(147, 146, 146)
+  );
+}
+.texts {
+  color: #15142fe6;
+}
+
+.textes {
+  background: linear-gradient(to right, red, blue, red, blue, white 50%);
+  /* background: linear-gradient(to right, orange, blue, orange, white 50%); */
+  /* background: radial-gradient(circle, #ffa500, #0000ff, #ffffff); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
