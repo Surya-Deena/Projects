@@ -22,7 +22,7 @@ function HomePage() {
         <div className="w-11/12 mx-auto mt-5">
           <div className="grid grid-cols-1 sm:grid-cols-12 gap-2">
             <div className="sm:col-span-5">
-              <Link href="/blogs/code">
+              <Link href="/blogs/code" className="route">
                 <div className="image_zoom">
                   <Image
                     src={Picture3}
@@ -138,7 +138,7 @@ function HomePage() {
                     />
                   </div>
                 </Link>
-                <Link href="/blogs/jiraya" className="custom-cursor">
+                <Link href="/blogs/jiraya" className="">
                   <div className="image_zoom ">
                     <Image
                       src={Picture11}
@@ -148,33 +148,23 @@ function HomePage() {
                   </div>
                 </Link>
                 <div>
-                  <div className="text-center py-5 text-3xl font-bold texted custom-cursor">
-               <button className="p-5 bg-yellow-500">surya</button>
-                  </div>
-                  <div className="text-center py-5 text-3xl font-bold texted custom-cursor">
+                  <div className="text-center py-2 text-3xl font-bold texted ">
                     Demo Project For Practice
                   </div>
-                  <div className="text-center py-5 text-3xl font-bold texted custom-cursor">
-                    <input type="text" className="py-3" />
+                  <div className="text-center text-lg font-bold texted ">
+                    <button className="px-3 py-2 border-2 rounded-full text-gray-600 border-gray-300">
+                      Reload
+                    </button>
                   </div>
-                  <div className="text-center relative py-5 text-3xl font-bold texted text-red-500">
-                    <div className="absolute top-0 z-10 text-yellow-500">
-                      <FaStar />
-                      <FaStar />
-                      <FaStar />
-                      <FaStar />
-                    </div>
+                  <div className="text-center py-5 text-3xl font-bold texted ">
+                    <input type="text" className="py-3" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="text-center py-5 text-3xl font-bold texted ">
-          Demo Project For Practice
-        </div>
       </div>
- 
     </>
   );
 }

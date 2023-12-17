@@ -26,6 +26,7 @@ a,
 a:hover,
 button,
 .clickable,
+.route,
 :link {
   cursor: url("https://img.icons8.com/pulsar-color/38/hand-cursor.png"), default !important;
 }
@@ -34,7 +35,8 @@ button,
 }
 input,
 input:focus {
-  cursor: url("https://img.icons8.com/ultraviolet/30/text-cursor.png"),  vertical-text !important;
+  cursor: url("https://img.icons8.com/ultraviolet/30/text-cursor.png"),
+    vertical-text !important;
 }
 /* input, */
 input:focus {
