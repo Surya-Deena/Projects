@@ -151,13 +151,10 @@ function HomePage() {
                   <div className="text-center py-2 text-3xl font-bold texted ">
                     Demo Project For Practice
                   </div>
-                  <div className="text-center text-lg font-bold texted ">
+                  <div className="text-end text-lg font-bold texted ">
                     <button className="px-3 py-2 border-2 rounded-full text-gray-600 border-gray-300">
                       Reload
                     </button>
-                  </div>
-                  <div className="text-center py-5 text-3xl font-bold texted ">
-                    <input type="text" className="py-3" />
                   </div>
                 </div>
               </div>

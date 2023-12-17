@@ -19,14 +19,13 @@
 body {
   cursor: url("https://img.icons8.com/color-glass/38/select-cursor--v2.png"),
     default;
-  /* cursor: url("https://img.icons8.com/color-glass/38/select-cursor--v2.png"),
-    pointer; */
 }
 a,
 a:hover,
 button,
 .clickable,
 .route,
+img,
 :link {
   cursor: url("https://img.icons8.com/pulsar-color/38/hand-cursor.png"), default !important;
 }
